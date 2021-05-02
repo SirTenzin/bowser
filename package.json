@@ -1,0 +1,28 @@
+{
+  "name": "bowser",
+  "version": "1.0.0",
+  "description": "A lightweight package to manage the browser",
+  "main": "index.js",
+  "scripts": {
+    "test:browser": "echo \"testing now\" && nodemon test/browser/index.js",
+    "test:backend": "echo \"testing now\" && nodemon test/backend/index.js",
+    "git:push": "echo \"pushing now\" && git add . && git commit -m \"Auto Commit by YARN\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirTenzin/bowser.git"
+  },
+  "keywords": [
+    "browser",
+    "local",
+    "storage",
+    "cookies",
+    "data"
+  ],
+  "author": "SirTenzin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirTenzin/bowser/issues"
+  },
+  "homepage": "https://github.com/SirTenzin/bowser#readme"
+}
